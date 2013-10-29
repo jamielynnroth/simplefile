@@ -1,0 +1,126 @@
+section#home {
+	background: url('/img/stockredchair.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 600px;
+}
+
+.right {
+	float;right;
+}
+
+.left {
+	float:left;
+}
+
+fieldset legend.inverse {
+	color:white;
+	background-color:transparent;
+}
+
+#phone {
+	margin-top: -55px;
+}
+.shade {
+	background: rgb(71, 71, 71);
+	opacity: .7;
+	height: 365px;
+	width: 500px;
+	position:absolute;
+/*	border-radius: 10px;
+*/	}
+
+#form div.row {
+	margin: 10px;
+}
+
+#form a.success.button {
+	float:right;
+	margin-bottom: 15px;
+	margin-right: 10px;
+}
+
+#form label {
+	color: black;
+}
+
+#form h3 {
+	color:white;
+}
+
+#form small {
+	color:white;
+}
+
+.vertCenter {
+	line-height: 34px;
+}
+
+#form .question {
+	clear:both;
+	/*margin-bottom: 10px;*/
+	padding-left: 0 !important;
+	padding-right:0;
+}
+
+#form .answer {
+	float:left;
+	margin-left: 10px;
+}
+
+#form .ask {
+	float:left;
+}
+
+#form h1 {
+	margin: 0;
+}
+
+#form .switch {
+	float: left;
+	padding-left: 5px;
+	margin-left: 10px;
+	padding-right: 5px;
+}
+
+form .switch label {
+	color:black;
+}
+
+#form h5 {
+	float:left;
+	line-height: 28px;
+	color:white;
+	margin: 0;
+}
+
+
+form.custom .custom.dropdown {
+	width: 100px !important;
+	margin:0;
+	padding: 0;
+}
+
+span.custom.radio {
+	margin-right: 2px;
+}
+
+#details {
+	padding-top: 30px;
+	position:relative;
+}
+/*
+#details .panel {
+	margin-right: 30px;
+	float:left;
+}
+
+#details .panel:last-child {
+	margin-right: 0;
+}
+*/
+
+footer h6 {
+	margin-left: 20px;
+	margin-bottom: 5px;
+}
