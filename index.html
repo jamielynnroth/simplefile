@@ -26,8 +26,8 @@
 	<div class="row">
 		<div class="large-12 columns">
 			<h1>SimpleFile</h1>
-			<h4 id="phone" class="right">Contact Us: 1-800-888-8888</h4>
-			<h3 class="subheader">Your taxes, made easy.</h3>
+<!-- 			<h4 id="phone" class="right">Contact Us: 1-800-888-8888</h4>
+ -->			<h3 class="subheader">Your taxes, made easy.</h3>
 			
 
 		</div>
@@ -54,8 +54,18 @@
 				</div>
 			<!-- </form>	
 			<form class="custom"> -->
-					<div class="large-12 columns question">
+				<div class="large-12 columns question">
 					<h5 class="subheader">How many homes do you own?</h5>
+					<!-- <label class="ask vertCenter" for="customDropdown1">How many homes do you own?</label> -->
+					<select class="answer" id="customDropdown1" class="large-2 columns" required>
+						<option>0</option>
+						<option>1</option>
+						<option>2</option>
+						<option>3+</option>
+					</select>
+				</div>
+				<div class="large-12 columns question">
+					<h5 class="subheader">How many children do you have?</h5>
 					<!-- <label class="ask vertCenter" for="customDropdown1">How many homes do you own?</label> -->
 					<select class="answer" id="customDropdown1" class="large-2 columns" required>
 						<option>0</option>
@@ -67,7 +77,7 @@
 			<!-- </form>
 			<form class="custom"> -->
 				<div class="large-12 columns question">
-				<h5 class="subheader">Do you earn income in more than one state?</h5>
+				<h5 class="subheader">Do you own your home?</h5>
 					<!-- <label class="ask">Did you earn income in more than one state?</label> -->
 				<div class="switch small large-2 columns">
 					<input id="x" name="switch-x" type="radio" checked>
@@ -78,13 +88,50 @@
 
 					<span></span>
 				</div>
+
+				<div class="large-12 columns question">
+				<h5 class="subheader">Do you have rental income?</h5>
+					<!-- <label class="ask">Did you earn income in more than one state?</label> -->
+				<div class="switch small large-2 columns">
+					<input id="x" name="switch-x" type="radio" checked>
+					<label for="x" onclick="">No</label>
+
+					<input id="x1" name="switch-x" type="radio">
+					<label for="x1" onclick="">Yes</label>
+
+					<span></span>
+				</div>
+
+				<div class="large-12 columns question">
+					<h5 class="subheader">How many stock trades do you make annually?</h5>
+					<!-- <label class="ask vertCenter" for="customDropdown1">How many homes do you own?</label> -->
+					<select class="answer" id="customDropdown1" class="large-2 columns" required>
+						<option>0</option>
+						<option>1</option>
+						<option>2</option>
+						<option>3+</option>
+					</select>
+				</div>
+
+				<div class="large-12 columns question">
+					<h5 class="subheader">In how many states did you earn income?</h5>
+					<!-- <label class="ask vertCenter" for="customDropdown1">How many homes do you own?</label> -->
+					<select class="answer" id="customDropdown1" class="large-2 columns" required>
+						<option>0</option>
+						<option>1</option>
+						<option>2</option>
+						<option>3+</option>
+					</select>
+				</div>
+
+				
 					<!-- <label class="answer" for="radio1"><input name="radio1" type="radio" id="radio1" style="display:none;" CHECKED><span class="custom radio checked"></span>No </label>
 					<label class="answer" for="radio1"><input name="radio1" type="radio" id="radio1" style="display:none;"><span class="custom radio"></span>Yes </label> -->
 				</div>
 			<!-- </form>
 			<form class="custom"> -->
 				<div class="large-12 columns question">
-				<h5 class="subheader">Do you have any investment income?</h5>
+				<h5 class="subheader">Do you own your own business?</h5>
 					<!-- <label class="ask">Do you have any investment income?</label> -->
 				<div class="switch small large-2 columns">
 					<input id="x" name="switch-x" type="radio" checked>
@@ -98,8 +145,10 @@
 					<!-- <label class="answer" for="radio1"><input name="radio1" type="radio" id="radio1" style="display:none;" CHECKED><span class="custom radio checked"></span>No </label>
 					<label class="answer" for="radio1"><input name="radio1" type="radio" id="radio1" style="display:none;"><span class="custom radio"></span>Yes </label> -->
 				</div>
-			
-				<p><a href="http://simplefile.dev/signup.html" class="success button">Get my free quote</a></p>
+			<div id="price">
+				<h3><span class="subheader">Your price: </span>$200</h3>
+			</div>
+				<p><a href="http://simplefile.dev/signup.html" class="success button">Next</a></p>
 			</fieldset>
 			</form>
 
