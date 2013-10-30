@@ -1,5 +1,5 @@
 section#home {
-	background: url('/img/stockredchair.jpg');
+	background: url('/img/girl.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 730px;
@@ -13,23 +13,30 @@ section#home {
 	float:left;
 }
 
+h1#pagetitle {
+	font-size:4.0em;
+	color: rgb(25, 25, 109);
+}
+
+
 fieldset legend.inverse {
 	color:white;
 	background-color:transparent;
 }
 
 #form fieldset {
-	width: 550px;
+	width: 440px;
+	border:none;
 }
 
 #phone {
 	margin-top: -55px;
 }
 .shade {
-	background: rgb(71, 71, 71);
+	background: rgba(10, 85, 128, 0.54); /*rgb(71, 71, 71);*/
 	opacity: .7;
-	height: 550px;
-	width: 580px;
+	height: 400px;
+	width: 471px;
 	position:absolute;
 /*	border-radius: 10px;
 */	}
