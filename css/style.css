@@ -1,8 +1,8 @@
 section#home {
-	background: url('/img/stockredchair.jpg');
+	background: url('img/stockredchair.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 600px;
+	height: 700px;
 }
 
 .right {
@@ -18,14 +18,18 @@ fieldset legend.inverse {
 	background-color:transparent;
 }
 
+#form fieldset {
+	width: 550px;
+}
+
 #phone {
 	margin-top: -55px;
 }
 .shade {
 	background: rgb(71, 71, 71);
 	opacity: .7;
-	height: 365px;
-	width: 500px;
+	height: 550px;
+	width: 580px;
 	position:absolute;
 /*	border-radius: 10px;
 */	}
@@ -123,4 +127,12 @@ span.custom.radio {
 footer h6 {
 	margin-left: 20px;
 	margin-bottom: 5px;
+}
+
+#price {
+	display:block;
+	float:left;
+}
+#price span.subheader{
+	color:white;
 }
