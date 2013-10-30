@@ -1,8 +1,8 @@
 section#home {
-	background: url('img/stockredchair.jpg');
+	background: url('/img/stockredchair.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 700px;
+	height: 730px;
 }
 
 .right {
