@@ -1,2 +1,140 @@
 <h1>Pages#home</h1>
 <p>Find me in app/views/pages/home.html.erb</p>
+
+<body>
+
+<section id="home">
+
+	<div class="row">
+		<div class="large-12 columns">
+<!-- 		<img src="img/simplefilelogo.png">-->			
+ <h1 id="pagetitle">simplefile</h1>
+				<h3 class="subheader">Your taxes, done better.</h3>
+ 				<h5 class="subheader">No complex software. No in-person meetings. 100% transparent pricing.</h5>
+				
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="shade" class="large-6 columns"></div>
+		<div id="form" class="large-6 columns">
+		<fieldset>
+			<legend class="inverse">Meet your personal accountant:</legend>
+		
+			<form data-abide class="custom">
+		
+		
+				<div class="large-12 columns question">
+					<h5 class="subheader">Are you married?</h5>
+				<div class="switch small round large-2 columns">
+					  <input id="q1" name="q1" type="radio" checked>
+					  <label for="q1" onclick="">No</label>
+
+					  <input id="q1" name="switch-x" type="radio">
+					  <label for="q1" onclick="">Yes</label>
+
+					  <span></span>
+				</div>
+				</div>
+
+				<div class="large-12 columns question">
+				<h5 class="subheader">Do you own your home?</h5>
+				<div class="switch small round large-2 columns">
+					<input id="q2" name="q2" type="radio" checked>
+					<label for="q2" onclick="">No</label>
+
+					<input id="q3" name="q3" type="radio">
+					<label for="q3" onclick="">Yes</label>
+
+					<span></span>
+				</div>
+
+				<div class="large-12 columns question">
+				<h5 class="subheader">Do you have rental income?</h5>
+				<div class="switch small round large-2 columns">
+					<input id="x" name="switch-x" type="radio" checked>
+					<label for="x" onclick="">No</label>
+
+					<input id="x1" name="switch-x" type="radio">
+					<label for="x1" onclick="">Yes</label>
+
+					<span></span>
+				</div>
+
+						<div class="large-12 columns question">
+					<h5 class="subheader">How many homes do you own?</h5>
+					<select class="answer" id="customDropdown1" class="large-2 columns" required>
+						<option>0</option>
+						<option>1</option>
+						<option>2</option>
+						<option>3+</option>
+					</select>
+				</div>
+				<div class="large-12 columns question">
+					<h5 class="subheader">How many children do you have?</h5>
+					<select class="answer" id="customDropdown1" class="large-2 columns" required>
+						<option>0</option>
+						<option>1</option>
+						<option>2</option>
+						<option>3+</option>
+					</select>
+				</div>
+
+				</div>
+			<div id="price">
+				<h3><span class="subheader">Your price: </span>$0</h3>
+			</div>
+				<p><a href="http://simplefile.dev/signup.html" class="success button">Next</a></p>
+			</fieldset>
+			</form>
+
+		</div>
+	</div>
+</section>
+
+<section id="details">
+
+<div class="row large-10 large-centered columns">
+
+<div class=" large-4 columns">
+<h3>Zero hassle</h3>
+<p>Send us your tax forms and we prepare and file your return for you. The most complex software you will use is email to communicate with your dedicated CPA.</p>
+</div>
+
+
+<div class=" large-4 columns">
+<h3>No Hidden Fees</h3> 
+<p>The price you are quoted is what you pay. If it takes us longer to do your return than we initially estimated, we pick up the additional costs.</p>
+</div>
+
+<div class=" large-4 columns">
+<h3>100% Certified </br> Public Accounts</h3>
+<p>Our accountants are all educated and based in the US and have worked for the big three US accounting firms.</p>
+</div>
+</div>
+
+<div class="panel large-6 columns large-centered callout">
+<h3>Satisfaction guaranteed.</h3> 
+<p>We stand by our work, if for any reason you are unsatisfied we offer a full refund, no questions asked.</p>
+</div>
+
+
+</section>
+<footer>
+	<hr>
+	<h6 class="left subheader"> &copy 2013 SimpleFile LLC</h6>
+</footer>
+			
+  <script>
+  document.write('<script src=' +
+  ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
+  '.js><\/script>')
+  </script>
+  
+  <script src="js/foundation.min.js"></script>
+
+  
+  <script>
+    $(document).foundation();
+  </script>
+</body>
