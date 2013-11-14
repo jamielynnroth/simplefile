@@ -1,0 +1,118 @@
+/* @license
+ * MyFonts Webfont Build ID 2657600, 2013-10-03T17:09:52-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Selfica Black Italic by Nootype
+ * URL: http://www.myfonts.com/fonts/nootype/selfica/black-italic/
+ * Copyright: Copyright (c) 2012 by Nico Inosanto. All rights reserved.
+ * 
+ * Webfont: Selfica Black by Nootype
+ * URL: http://www.myfonts.com/fonts/nootype/selfica/black/
+ * Copyright: Copyright (c) 2012 by Nico Inosanto. All rights reserved.
+ * 
+ * Webfont: Selfica Bold Italic by Nootype
+ * URL: http://www.myfonts.com/fonts/nootype/selfica/bold-italic/
+ * Copyright: Copyright (c) 2013 by Nico Inosanto. All rights reserved.
+ * 
+ * Webfont: Selfica Bold by Nootype
+ * URL: http://www.myfonts.com/fonts/nootype/selfica/bold/
+ * Copyright: Copyright (c) 2013 by Nico Inosanto. All rights reserved.
+ * 
+ * Webfont: Selfica Hairline by Nootype
+ * URL: http://www.myfonts.com/fonts/nootype/selfica/hairline/
+ * Copyright: Copyright (c) 2012 by Nico Inosanto. All rights reserved.
+ * 
+ * Webfont: Selfica Hairline Italic by Nootype
+ * URL: http://www.myfonts.com/fonts/nootype/selfica/hairline-italic/
+ * Copyright: Copyright (c) 2012 by Nico Inosanto. All rights reserved.
+ * 
+ * Webfont: Selfica Italic by Nootype
+ * URL: http://www.myfonts.com/fonts/nootype/selfica/italic/
+ * Copyright: Copyright (c) 2013 by Nico Inosanto. All rights reserved.
+ * 
+ * Webfont: Selfica Light Italic by Nootype
+ * URL: http://www.myfonts.com/fonts/nootype/selfica/light-italic/
+ * Copyright: Copyright (c) 2013 by Nico Inosanto. All rights reserved.
+ * 
+ * Webfont: Selfica Light by Nootype
+ * URL: http://www.myfonts.com/fonts/nootype/selfica/light/
+ * Copyright: Copyright (c) 2013 by Nico Inosanto. All rights reserved.
+ * 
+ * Webfont: Selfica by Nootype
+ * URL: http://www.myfonts.com/fonts/nootype/selfica/regular/
+ * Copyright: Copyright (c) 2013 by Nico Inosanto. All rights reserved.
+ * 
+ * Webfont: Selfica Medium Italic by Nootype
+ * URL: http://www.myfonts.com/fonts/nootype/selfica/medium-italic/
+ * Copyright: Copyright (c) 2013 by Nico Inosanto. All rights reserved.
+ * 
+ * Webfont: Selfica Medium by Nootype
+ * URL: http://www.myfonts.com/fonts/nootype/selfica/medium/
+ * Copyright: Copyright (c) 2013 by Nico Inosanto. All rights reserved.
+ * 
+ * Webfont: Selfica Thin Italic by Nootype
+ * URL: http://www.myfonts.com/fonts/nootype/selfica/thin-italic/
+ * Copyright: Copyright (c) 2013 by Nico Inosanto. All rights reserved.
+ * 
+ * Webfont: Selfica Thin by Nootype
+ * URL: http://www.myfonts.com/fonts/nootype/selfica/thin/
+ * Copyright: Copyright (c) 2013 by Nico Inosanto. All rights reserved.
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2657600
+ * Licensed pageviews: 10,000
+ * 
+ * © 2013 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/288d40");
+
+  
+@font-face {font-family: 'Selfica-BlackItalic';src: url('webfonts/288D40_0_0.eot');src: url('webfonts/288D40_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/288D40_0_0.woff') format('woff'),url('webfonts/288D40_0_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Selfica-Black';src: url('webfonts/288D40_1_0.eot');src: url('webfonts/288D40_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/288D40_1_0.woff') format('woff'),url('webfonts/288D40_1_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'SelficaBoldItalic';src: url('webfonts/288D40_2_0.eot');src: url('webfonts/288D40_2_0.eot?#iefix') format('embedded-opentype'),url('webfonts/288D40_2_0.woff') format('woff'),url('webfonts/288D40_2_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'SelficaBold';src: url('webfonts/288D40_3_0.eot');src: url('webfonts/288D40_3_0.eot?#iefix') format('embedded-opentype'),url('webfonts/288D40_3_0.woff') format('woff'),url('webfonts/288D40_3_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Selfica-Hairline';src: url('webfonts/288D40_4_0.eot');src: url('webfonts/288D40_4_0.eot?#iefix') format('embedded-opentype'),url('webfonts/288D40_4_0.woff') format('woff'),url('webfonts/288D40_4_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Selfica-HairlineItalic';src: url('webfonts/288D40_5_0.eot');src: url('webfonts/288D40_5_0.eot?#iefix') format('embedded-opentype'),url('webfonts/288D40_5_0.woff') format('woff'),url('webfonts/288D40_5_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Selfica-Italic';src: url('webfonts/288D40_6_0.eot');src: url('webfonts/288D40_6_0.eot?#iefix') format('embedded-opentype'),url('webfonts/288D40_6_0.woff') format('woff'),url('webfonts/288D40_6_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Selfica-LightItalic';src: url('webfonts/288D40_7_0.eot');src: url('webfonts/288D40_7_0.eot?#iefix') format('embedded-opentype'),url('webfonts/288D40_7_0.woff') format('woff'),url('webfonts/288D40_7_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Selfica-Light';src: url('webfonts/288D40_8_0.eot');src: url('webfonts/288D40_8_0.eot?#iefix') format('embedded-opentype'),url('webfonts/288D40_8_0.woff') format('woff'),url('webfonts/288D40_8_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Selfica';src: url('webfonts/288D40_9_0.eot');src: url('webfonts/288D40_9_0.eot?#iefix') format('embedded-opentype'),url('webfonts/288D40_9_0.woff') format('woff'),url('webfonts/288D40_9_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Selfica-MediumItalic';src: url('webfonts/288D40_A_0.eot');src: url('webfonts/288D40_A_0.eot?#iefix') format('embedded-opentype'),url('webfonts/288D40_A_0.woff') format('woff'),url('webfonts/288D40_A_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Selfica-Medium';src: url('webfonts/288D40_B_0.eot');src: url('webfonts/288D40_B_0.eot?#iefix') format('embedded-opentype'),url('webfonts/288D40_B_0.woff') format('woff'),url('webfonts/288D40_B_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Selfica-ThinItalic';src: url('webfonts/288D40_C_0.eot');src: url('webfonts/288D40_C_0.eot?#iefix') format('embedded-opentype'),url('webfonts/288D40_C_0.woff') format('woff'),url('webfonts/288D40_C_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Selfica-Thin';src: url('webfonts/288D40_D_0.eot');src: url('webfonts/288D40_D_0.eot?#iefix') format('embedded-opentype'),url('webfonts/288D40_D_0.woff') format('woff'),url('webfonts/288D40_D_0.ttf') format('truetype');}
+ 

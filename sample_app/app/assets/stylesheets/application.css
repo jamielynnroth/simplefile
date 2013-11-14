@@ -1,0 +1,152 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+/*= require foundation */
+
+$primary-color: rgba(10, 85, 128, 0.54);
+$headings-color: rgb(25, 25, 109);
+$white: rgb(255,255,255);
+$black: rgb(0,0,0);
+
+section#home {
+	background: url('/img/girl.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 730px;
+}
+
+.right {
+	float;right;
+}
+
+.left {
+	float:left;
+}
+
+h1#pagetitle {
+	font-size:4.0em;
+	color: $headings-color;
+}
+
+
+fieldset legend.inverse {
+	color: $white;
+	background-color:transparent;
+}
+
+#form fieldset {
+	width: 440px;
+	border:none;
+}
+
+#phone {
+	margin-top: -55px;
+}
+.shade {
+	background: $primary-color; /*rgb(71, 71, 71);*/
+	opacity: .7;
+	height: 400px;
+	width: 471px;
+	position:absolute;
+	}
+
+
+
+#form a.success.button {
+	float:right;
+	margin-bottom: 15px;
+	margin-right: 10px;
+}
+
+
+
+.vertCenter {
+	line-height: 34px;
+}
+
+#form {
+	label {
+		color:$black;
+	}
+	h3 {
+		color:$white;
+	}
+	small {
+		color:$white;
+	}
+	.question {
+		clear:both;
+		padding-left: 0 !important;
+		padding-right:0;
+	}
+	.answer {
+		float:left;
+		margin-left: 10px;
+	}
+	.ask {
+		float:left;
+	}
+	h1 {
+		margin: 0;
+	}
+	h5 {
+		float:left;
+		line-height: 28px;
+		color:$white;
+		margin: 0;
+	}
+	.switch {
+		float: left;
+		padding-left: 5px;
+		margin-left: 10px;
+		padding-right: 5px;
+	}
+	div.row {
+		margin: 10px;
+	}
+}
+
+
+form {
+	.switch label {
+	color:$black;
+	}
+	.custom .custom.dropdown {
+	width: 100px !important;
+	margin:0;
+	padding: 0;
+	}
+
+}
+
+#details {
+	padding-top: 30px;
+	position:relative;
+}
+
+
+#price {
+	display:block;
+	float:left;
+
+	span.subheader{
+		color:$white;
+	}
+}
+
+footer {
+	h6 {
+		margin-left: 20px;
+		margin-bottom: 5px;
+	}
+}
